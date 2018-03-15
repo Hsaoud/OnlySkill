@@ -63,8 +63,8 @@ public class PlayerController : MonoBehaviour
 
     private void setInvincibility()
     {
-        if (invincibilityRemainingTime < 0) invincibilityRemainingTime = 10;
-        else invincibilityRemainingTime += 10;
+        if (invincibilityRemainingTime < 0) invincibilityRemainingTime = 5;
+        else invincibilityRemainingTime += 5;
         powerUpEffect.sprite = invincibilityEffectSprite;
         invincible = true;
     }
